@@ -1,1 +1,2 @@
-apply from : "https://raw.githubusercontent.com/limpoxe/Android-Plugin-Framework/master/FairyPlugin/agp3_4_0/host.gradle"
+//apply from : "https://raw.githubusercontent.com/limpoxe/Android-Plugin-Framework/master/FairyPlugin/agp3_4_0/host.gradle"
+apply from : "https://raw.githubusercontent.com/shuiZhongBoWen/Android-Plugin-Framework/master/FairyPlugin/agp3_4_0/host.gradle"

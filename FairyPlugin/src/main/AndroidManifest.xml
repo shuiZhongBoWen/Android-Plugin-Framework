@@ -17,7 +17,7 @@
             stub并不需要真实存在，只是占个位置，注册1个即可
         -->
         <receiver
-            android:name="${applicationId}.stub.PluginStubReceiver0"
+            android:name="${applicationId}.stub.PluginzbwStubReceiver0"
             android:exported="true"
             android:process=":plugin">
             <intent-filter>
@@ -33,7 +33,7 @@
             stub并不需要真实存在，只是占个位置，预注册10来个应该绰绰有余了
         -->
         <service
-            android:name="${applicationId}.stub.PluginStubService0"
+            android:name="${applicationId}.stub.PluginzbwStubService0"
             android:process=":plugin">
             <intent-filter>
                 <action android:name="${applicationId}.STUB_DEFAULT" />
@@ -42,7 +42,7 @@
         </service>
 
         <service
-            android:name="${applicationId}.stub.PluginStubService1"
+            android:name="${applicationId}.stub.PluginzbwStubService1"
             android:process=":plugin">
             <intent-filter>
                 <action android:name="${applicationId}.STUB_DEFAULT" />
@@ -51,7 +51,7 @@
         </service>
 
         <service
-            android:name="${applicationId}.stub.PluginStubService2"
+            android:name="${applicationId}.stub.PluginzbwStubService2"
             android:process=":plugin">
             <intent-filter>
                 <action android:name="${applicationId}.STUB_DEFAULT" />
@@ -60,7 +60,7 @@
         </service>
 
         <service
-            android:name="${applicationId}.stub.PluginStubService3"
+            android:name="${applicationId}.stub.PluginzbwStubService3"
             android:process=":plugin">
             <intent-filter>
                 <action android:name="${applicationId}.STUB_DEFAULT" />
@@ -69,7 +69,7 @@
         </service>
 
         <service
-            android:name="${applicationId}.stub.PluginStubService4"
+            android:name="${applicationId}.stub.PluginzbwStubService4"
             android:process=":plugin">
             <intent-filter>
                 <action android:name="${applicationId}.STUB_DEFAULT" />
@@ -78,7 +78,7 @@
         </service>
 
         <service
-            android:name="${applicationId}.stub.PluginStubService5"
+            android:name="${applicationId}.stub.PluginzbwStubService5"
             android:process=":plugin">
             <intent-filter>
                 <action android:name="${applicationId}.STUB_DEFAULT" />
@@ -87,7 +87,7 @@
         </service>
 
         <service
-            android:name="${applicationId}.stub.PluginStubService6"
+            android:name="${applicationId}.stub.PluginzbwStubService6"
             android:process=":plugin">
             <intent-filter>
                 <action android:name="${applicationId}.STUB_DEFAULT" />
@@ -96,7 +96,7 @@
         </service>
 
         <service
-            android:name="${applicationId}.stub.PluginStubService7"
+            android:name="${applicationId}.stub.PluginzbwStubService7"
             android:process=":plugin">
             <intent-filter>
                 <action android:name="${applicationId}.STUB_DEFAULT" />
@@ -105,7 +105,7 @@
         </service>
 
         <service
-            android:name="${applicationId}.stub.PluginStubService8"
+            android:name="${applicationId}.stub.PluginzbwStubService8"
             android:process=":plugin">
             <intent-filter>
                 <action android:name="${applicationId}.STUB_DEFAULT" />
@@ -114,7 +114,7 @@
         </service>
 
         <service
-            android:name="${applicationId}.stub.PluginStubService9"
+            android:name="${applicationId}.stub.PluginzbwStubService9"
             android:process=":plugin">
             <intent-filter>
                 <action android:name="${applicationId}.STUB_DEFAULT" />
@@ -129,7 +129,7 @@
             standard 的 launchmode只需全透明和非全透明各注册1个stub即可
         -->
         <activity
-            android:name="${applicationId}.stub.PluginStubActivityST0"
+            android:name="${applicationId}.stub.PluginzbwStubActivityST0"
             android:exported="true"
             android:process=":plugin"
             android:theme="@android:style/Theme.Translucent">
@@ -139,7 +139,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="${applicationId}.stub.PluginStubActivityST1"
+            android:name="${applicationId}.stub.PluginzbwStubActivityST1"
             android:exported="true"
             android:process=":plugin"
             android:theme="@android:style/Theme.Translucent">
@@ -149,7 +149,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="${applicationId}.stub.PluginStubActivityST2"
+            android:name="${applicationId}.stub.PluginzbwStubActivityST2"
             android:exported="true"
             android:process=":plugin"
             android:theme="@android:style/Theme.Translucent">
@@ -159,7 +159,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="${applicationId}.stub.PluginStubActivityST3"
+            android:name="${applicationId}.stub.PluginzbwStubActivityST3"
             android:exported="true"
             android:process=":plugin"
             android:theme="@android:style/Theme.Translucent">
@@ -169,7 +169,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="${applicationId}.stub.PluginStubActivityST4"
+            android:name="${applicationId}.stub.PluginzbwStubActivityST4"
             android:exported="true"
             android:process=":plugin"
             android:theme="@android:style/Theme.Translucent">
@@ -179,7 +179,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="${applicationId}.stub.PluginStubActivityST5"
+            android:name="${applicationId}.stub.PluginzbwStubActivityST5"
             android:exported="true"
             android:process=":plugin"
             android:theme="@android:style/Theme.Translucent">
@@ -189,7 +189,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="${applicationId}.stub.PluginStubActivityST6"
+            android:name="${applicationId}.stub.PluginzbwStubActivityST6"
             android:exported="true"
             android:process=":plugin"
             android:theme="@android:style/Theme.Translucent">
@@ -199,7 +199,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="${applicationId}.stub.PluginStubActivityST7"
+            android:name="${applicationId}.stub.PluginzbwStubActivityST7"
             android:exported="true"
             android:process=":plugin"
             android:theme="@android:style/Theme.Translucent">
@@ -209,7 +209,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="${applicationId}.stub.PluginStubActivityST8"
+            android:name="${applicationId}.stub.PluginzbwStubActivityST8"
             android:exported="true"
             android:process=":plugin"
             android:theme="@android:style/Theme.Translucent">
@@ -219,7 +219,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="${applicationId}.stub.PluginStubActivityST9"
+            android:name="${applicationId}.stub.PluginzbwStubActivityST9"
             android:exported="true"
             android:process=":plugin"
             android:theme="@android:style/Theme.Translucent">
@@ -229,7 +229,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="${applicationId}.stub.PluginStubActivityST10"
+            android:name="${applicationId}.stub.PluginzbwStubActivityST10"
             android:exported="true"
             android:process=":plugin"
             android:theme="@android:style/Theme.Translucent">
@@ -239,7 +239,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="${applicationId}.stub.PluginStubActivityST11"
+            android:name="${applicationId}.stub.PluginzbwStubActivityST11"
             android:exported="true"
             android:process=":plugin"
             android:theme="@android:style/Theme.Translucent">
@@ -249,7 +249,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="${applicationId}.stub.PluginStubActivityST12"
+            android:name="${applicationId}.stub.PluginzbwStubActivityST12"
             android:exported="true"
             android:process=":plugin"
             android:theme="@android:style/Theme.Translucent">
@@ -259,7 +259,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="${applicationId}.stub.PluginStubActivityST13"
+            android:name="${applicationId}.stub.PluginzbwStubActivityST13"
             android:exported="true"
             android:process=":plugin"
             android:theme="@android:style/Theme.Translucent">
@@ -269,7 +269,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="${applicationId}.stub.PluginStubActivityST14"
+            android:name="${applicationId}.stub.PluginzbwStubActivityST14"
             android:exported="true"
             android:process=":plugin"
             android:theme="@android:style/Theme.Translucent">
@@ -280,7 +280,7 @@
         </activity>
         <!-- 不透 -->
         <activity
-            android:name="${applicationId}.stub.PluginStubActivityS0"
+            android:name="${applicationId}.stub.PluginzbwStubActivityS0"
             android:exported="true"
             android:process=":plugin"
             android:theme="@android:style/Theme">
@@ -290,7 +290,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="${applicationId}.stub.PluginStubActivityS1"
+            android:name="${applicationId}.stub.PluginzbwStubActivityS1"
             android:exported="true"
             android:process=":plugin"
             android:theme="@android:style/Theme">
@@ -300,7 +300,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="${applicationId}.stub.PluginStubActivityS2"
+            android:name="${applicationId}.stub.PluginzbwStubActivityS2"
             android:exported="true"
             android:process=":plugin"
             android:theme="@android:style/Theme">
@@ -310,7 +310,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="${applicationId}.stub.PluginStubActivityS3"
+            android:name="${applicationId}.stub.PluginzbwStubActivityS3"
             android:exported="true"
             android:process=":plugin"
             android:theme="@android:style/Theme">
@@ -320,7 +320,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="${applicationId}.stub.PluginStubActivityS4"
+            android:name="${applicationId}.stub.PluginzbwStubActivityS4"
             android:exported="true"
             android:process=":plugin"
             android:theme="@android:style/Theme">
@@ -330,7 +330,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="${applicationId}.stub.PluginStubActivityS5"
+            android:name="${applicationId}.stub.PluginzbwStubActivityS5"
             android:exported="true"
             android:process=":plugin"
             android:theme="@android:style/Theme">
@@ -340,7 +340,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="${applicationId}.stub.PluginStubActivityS6"
+            android:name="${applicationId}.stub.PluginzbwStubActivityS6"
             android:exported="true"
             android:process=":plugin"
             android:theme="@android:style/Theme">
@@ -350,7 +350,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="${applicationId}.stub.PluginStubActivityS7"
+            android:name="${applicationId}.stub.PluginzbwStubActivityS7"
             android:exported="true"
             android:process=":plugin"
             android:theme="@android:style/Theme">
@@ -360,7 +360,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="${applicationId}.stub.PluginStubActivityS8"
+            android:name="${applicationId}.stub.PluginzbwStubActivityS8"
             android:exported="true"
             android:process=":plugin"
             android:theme="@android:style/Theme">
@@ -370,7 +370,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="${applicationId}.stub.PluginStubActivityS9"
+            android:name="${applicationId}.stub.PluginzbwStubActivityS9"
             android:exported="true"
             android:process=":plugin"
             android:theme="@android:style/Theme">
@@ -380,7 +380,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="${applicationId}.stub.PluginStubActivityS10"
+            android:name="${applicationId}.stub.PluginzbwStubActivityS10"
             android:exported="true"
             android:process=":plugin"
             android:theme="@android:style/Theme">
@@ -390,7 +390,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="${applicationId}.stub.PluginStubActivityS11"
+            android:name="${applicationId}.stub.PluginzbwStubActivityS11"
             android:exported="true"
             android:process=":plugin"
             android:theme="@android:style/Theme">
@@ -400,7 +400,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="${applicationId}.stub.PluginStubActivityS12"
+            android:name="${applicationId}.stub.PluginzbwStubActivityS12"
             android:exported="true"
             android:process=":plugin"
             android:theme="@android:style/Theme">
@@ -410,7 +410,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="${applicationId}.stub.PluginStubActivityS13"
+            android:name="${applicationId}.stub.PluginzbwStubActivityS13"
             android:exported="true"
             android:process=":plugin"
             android:theme="@android:style/Theme">
@@ -420,7 +420,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="${applicationId}.stub.PluginStubActivityS14"
+            android:name="${applicationId}.stub.PluginzbwStubActivityS14"
             android:exported="true"
             android:process=":plugin"
             android:theme="@android:style/Theme">
@@ -431,7 +431,7 @@
         </activity>
         <!-- 不透、横屏 -->
         <activity
-            android:name="${applicationId}.stub.PluginStubActivityStandard2"
+            android:name="${applicationId}.stub.PluginzbwStubActivityStandard2"
             android:exported="true"
             android:process=":plugin"
             android:screenOrientation="landscape"
@@ -449,7 +449,7 @@
             预注册10个应该绰绰有余了
         -->
         <activity
-            android:name="${applicationId}.stub.PluginStubActivitySingleTask0"
+            android:name="${applicationId}.stub.PluginzbwStubActivitySingleTask0"
             android:exported="true"
             android:launchMode="singleTask"
             android:process=":plugin">
@@ -460,7 +460,7 @@
         </activity>
 
         <activity
-            android:name="${applicationId}.stub.PluginStubActivitySingleTask1"
+            android:name="${applicationId}.stub.PluginzbwStubActivitySingleTask1"
             android:exported="true"
             android:launchMode="singleTask"
             android:process=":plugin">
@@ -471,7 +471,7 @@
         </activity>
 
         <activity
-            android:name="${applicationId}.stub.PluginStubActivitySingleTask2"
+            android:name="${applicationId}.stub.PluginzbwStubActivitySingleTask2"
             android:exported="true"
             android:launchMode="singleTask"
             android:process=":plugin">
@@ -482,7 +482,7 @@
         </activity>
 
         <activity
-            android:name="${applicationId}.stub.PluginStubActivitySingleTask3"
+            android:name="${applicationId}.stub.PluginzbwStubActivitySingleTask3"
             android:exported="true"
             android:launchMode="singleTask"
             android:process=":plugin">
@@ -493,7 +493,7 @@
         </activity>
 
         <activity
-            android:name="${applicationId}.stub.PluginStubActivitySingleTask4"
+            android:name="${applicationId}.stub.PluginzbwStubActivitySingleTask4"
             android:exported="true"
             android:launchMode="singleTask"
             android:process=":plugin">
@@ -504,7 +504,7 @@
         </activity>
 
         <activity
-            android:name="${applicationId}.stub.PluginStubActivitySingleTask5"
+            android:name="${applicationId}.stub.PluginzbwStubActivitySingleTask5"
             android:exported="true"
             android:launchMode="singleTask"
             android:process=":plugin">
@@ -515,7 +515,7 @@
         </activity>
 
         <activity
-            android:name="${applicationId}.stub.PluginStubActivitySingleTask6"
+            android:name="${applicationId}.stub.PluginzbwStubActivitySingleTask6"
             android:exported="true"
             android:launchMode="singleTask"
             android:process=":plugin">
@@ -526,7 +526,7 @@
         </activity>
 
         <activity
-            android:name="${applicationId}.stub.PluginStubActivitySingleTask7"
+            android:name="${applicationId}.stub.PluginzbwStubActivitySingleTask7"
             android:exported="true"
             android:launchMode="singleTask"
             android:process=":plugin">
@@ -537,7 +537,7 @@
         </activity>
 
         <activity
-            android:name="${applicationId}.stub.PluginStubActivitySingleTask8"
+            android:name="${applicationId}.stub.PluginzbwStubActivitySingleTask8"
             android:exported="true"
             android:launchMode="singleTask"
             android:process=":plugin">
@@ -548,7 +548,7 @@
         </activity>
 
         <activity
-            android:name="${applicationId}.stub.PluginStubActivitySingleTask9"
+            android:name="${applicationId}.stub.PluginzbwStubActivitySingleTask9"
             android:exported="true"
             android:launchMode="singleTask"
             android:process=":plugin">
@@ -566,7 +566,7 @@
             预注册5个应该绰绰有余了
             -->
         <activity
-            android:name="${applicationId}.stub.PluginStubActivitySingleTop0"
+            android:name="${applicationId}.stub.PluginzbwStubActivitySingleTop0"
             android:exported="true"
             android:launchMode="singleTop"
             android:process=":plugin">
@@ -577,7 +577,7 @@
         </activity>
 
         <activity
-            android:name="${applicationId}.stub.PluginStubActivitySingleTop1"
+            android:name="${applicationId}.stub.PluginzbwStubActivitySingleTop1"
             android:exported="true"
             android:launchMode="singleTop"
             android:process=":plugin">
@@ -588,7 +588,7 @@
         </activity>
 
         <activity
-            android:name="${applicationId}.stub.PluginStubActivitySingleTop2"
+            android:name="${applicationId}.stub.PluginzbwStubActivitySingleTop2"
             android:exported="true"
             android:launchMode="singleTop"
             android:process=":plugin">
@@ -599,7 +599,7 @@
         </activity>
 
         <activity
-            android:name="${applicationId}.stub.PluginStubActivitySingleTop3"
+            android:name="${applicationId}.stub.PluginzbwStubActivitySingleTop3"
             android:exported="true"
             android:launchMode="singleTop"
             android:process=":plugin">
@@ -610,7 +610,7 @@
         </activity>
 
         <activity
-            android:name="${applicationId}.stub.PluginStubActivitySingleTop4"
+            android:name="${applicationId}.stub.PluginzbwStubActivitySingleTop4"
             android:exported="true"
             android:launchMode="singleTop"
             android:process=":plugin">
@@ -621,7 +621,7 @@
         </activity>
 
         <activity
-            android:name="${applicationId}.stub.PluginStubActivitySingleTop5"
+            android:name="${applicationId}.stub.PluginzbwStubActivitySingleTop5"
             android:exported="true"
             android:launchMode="singleTop"
             android:process=":plugin">
@@ -632,7 +632,7 @@
         </activity>
 
         <activity
-            android:name="${applicationId}.stub.PluginStubActivitySingleTop6"
+            android:name="${applicationId}.stub.PluginzbwStubActivitySingleTop6"
             android:exported="true"
             android:launchMode="singleTop"
             android:process=":plugin">
@@ -643,7 +643,7 @@
         </activity>
 
         <activity
-            android:name="${applicationId}.stub.PluginStubActivitySingleTop7"
+            android:name="${applicationId}.stub.PluginzbwStubActivitySingleTop7"
             android:exported="true"
             android:launchMode="singleTop"
             android:process=":plugin">
@@ -654,7 +654,7 @@
         </activity>
 
         <activity
-            android:name="${applicationId}.stub.PluginStubActivitySingleTop8"
+            android:name="${applicationId}.stub.PluginzbwStubActivitySingleTop8"
             android:exported="true"
             android:launchMode="singleTop"
             android:process=":plugin">
@@ -665,7 +665,7 @@
         </activity>
 
         <activity
-            android:name="${applicationId}.stub.PluginStubActivitySingleTop9"
+            android:name="${applicationId}.stub.PluginzbwStubActivitySingleTop9"
             android:exported="true"
             android:launchMode="singleTop"
             android:process=":plugin">
@@ -683,7 +683,7 @@
             预注册5个应该绰绰有余了
             -->
         <activity
-            android:name="${applicationId}.stub.PluginStubActivitySingleInstance0"
+            android:name="${applicationId}.stub.PluginzbwStubActivitySingleInstance0"
             android:exported="true"
             android:launchMode="singleInstance"
             android:process=":plugin">
@@ -694,7 +694,7 @@
         </activity>
 
         <activity
-            android:name="${applicationId}.stub.PluginStubActivitySingleInstance1"
+            android:name="${applicationId}.stub.PluginzbwStubActivitySingleInstance1"
             android:exported="true"
             android:launchMode="singleInstance"
             android:process=":plugin">
@@ -705,7 +705,7 @@
         </activity>
 
         <activity
-            android:name="${applicationId}.stub.PluginStubActivitySingleInstance2"
+            android:name="${applicationId}.stub.PluginzbwStubActivitySingleInstance2"
             android:exported="true"
             android:launchMode="singleInstance"
             android:process=":plugin">
@@ -716,7 +716,7 @@
         </activity>
 
         <activity
-            android:name="${applicationId}.stub.PluginStubActivitySingleInstance3"
+            android:name="${applicationId}.stub.PluginzbwStubActivitySingleInstance3"
             android:exported="true"
             android:launchMode="singleInstance"
             android:process=":plugin">
@@ -727,7 +727,7 @@
         </activity>
 
         <activity
-            android:name="${applicationId}.stub.PluginStubActivitySingleInstance4"
+            android:name="${applicationId}.stub.PluginzbwStubActivitySingleInstance4"
             android:exported="true"
             android:launchMode="singleInstance"
             android:process=":plugin">
@@ -738,7 +738,7 @@
         </activity>
 
         <activity
-            android:name="${applicationId}.stub.PluginStubActivitySingleInstance5"
+            android:name="${applicationId}.stub.PluginzbwStubActivitySingleInstance5"
             android:exported="true"
             android:launchMode="singleInstance"
             android:process=":plugin">
@@ -749,7 +749,7 @@
         </activity>
 
         <activity
-            android:name="${applicationId}.stub.PluginStubActivitySingleInstance6"
+            android:name="${applicationId}.stub.PluginzbwStubActivitySingleInstance6"
             android:exported="true"
             android:launchMode="singleInstance"
             android:process=":plugin">
@@ -760,7 +760,7 @@
         </activity>
 
         <activity
-            android:name="${applicationId}.stub.PluginStubActivitySingleInstance7"
+            android:name="${applicationId}.stub.PluginzbwStubActivitySingleInstance7"
             android:exported="true"
             android:launchMode="singleInstance"
             android:process=":plugin">
@@ -771,7 +771,7 @@
         </activity>
 
         <activity
-            android:name="${applicationId}.stub.PluginStubActivitySingleInstance8"
+            android:name="${applicationId}.stub.PluginzbwStubActivitySingleInstance8"
             android:exported="true"
             android:launchMode="singleInstance"
             android:process=":plugin">
@@ -782,7 +782,7 @@
         </activity>
 
         <activity
-            android:name="${applicationId}.stub.PluginStubActivitySingleInstance9"
+            android:name="${applicationId}.stub.PluginzbwStubActivitySingleInstance9"
             android:exported="true"
             android:launchMode="singleInstance"
             android:process=":plugin">
